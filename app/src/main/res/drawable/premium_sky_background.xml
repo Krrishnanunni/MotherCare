@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base sky gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="135"
+                android:startColor="#E6F7FF"
+                android:centerColor="#BAE7FF"
+                android:endColor="#69B7FF"
+                android:type="linear" />
+        </shape>
+    </item>
+    
+    <!-- Cloud layer 1 - soft white clouds -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="90"
+                android:startColor="#20FFFFFF"
+                android:centerColor="#08FFFFFF"
+                android:endColor="#00FFFFFF"
+                android:type="linear" />
+        </shape>
+    </item>
+    
+    <!-- Cloud layer 2 - deeper clouds -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="45"
+                android:startColor="#00FFFFFF"
+                android:centerColor="#10FFFFFF"
+                android:endColor="#05FFFFFF"
+                android:type="linear" />
+        </shape>
+    </item>
+    
+    <!-- Subtle atmosphere overlay -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="180"
+                android:startColor="#03E3F2FD"
+                android:centerColor="#00E3F2FD"
+                android:endColor="#05DBEAFE"
+                android:type="linear" />
+        </shape>
+    </item>
+</layer-list>

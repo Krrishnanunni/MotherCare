@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Purple night gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="135"
+                android:startColor="#1E1B4B"
+                android:centerColor="#312E81"
+                android:endColor="#4338CA"
+                android:type="linear" />
+        </shape>
+    </item>
+    
+    <!-- Dark overlay for depth -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="90"
+                android:startColor="#15000000"
+                android:centerColor="#08000000"
+                android:endColor="#03000000"
+                android:type="linear" />
+        </shape>
+    </item>
+    
+    <!-- Subtle cosmic effect -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="45"
+                android:startColor="#054338CA"
+                android:centerColor="#03312E81"
+                android:endColor="#021E1B4B"
+                android:type="linear" />
+        </shape>
+    </item>
+</layer-list>

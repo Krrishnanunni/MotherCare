@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".RateCareCenter"
+    android:background="@drawable/background">
+
+    <!-- RatingBar -->
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:numStars="5"
+        android:stepSize="1.0"
+        android:rating="0" />
+
+    <!-- Review EditText -->
+    <EditText
+        android:id="@+id/review"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Write your review"
+        android:inputType="text"
+        android:padding="12dp"
+        android:backgroundTint="#fc8eac"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/rate"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:backgroundTint="#fc8eac"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- View Ratings TextView -->
+    <TextView
+        android:id="@+id/view_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Ratings"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+</LinearLayout>

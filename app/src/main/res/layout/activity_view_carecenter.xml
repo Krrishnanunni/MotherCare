@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    tools:context=".ViewCarecenter">
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="190dp"
+        android:padding="8dp"
+        android:background="@drawable/search_bar_background"
+        android:layout_gravity="center"
+        android:elevation="4dp">
+
+        <!-- Styled Search Input -->
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:background="@null"
+            android:textColorHint="#888"
+            android:textColor="#000"
+            android:hint="Search here"
+            android:textSize="16sp"
+            android:inputType="text" />
+
+        <!-- Styled Filter Button -->
+        <Button
+            android:id="@+id/filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Filter"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:background="@drawable/button_back"
+            android:padding="10dp"
+            android:elevation="4dp" />
+
+        <!-- Hidden Search Button -->
+        <Button
+            android:id="@+id/srch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="search"
+            android:visibility="gone"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+
+    <!-- Price Filter Fields -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <!-- Min Price -->
+        <EditText
+            android:id="@+id/min_price"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="Min Price"
+            android:textColorHint="#888"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:visibility="gone"
+            android:background="@drawable/input_background" />
+
+        <!-- Max Price -->
+        <EditText
+            android:id="@+id/max_price"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="Max Price"
+            android:textColorHint="#888"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:visibility="gone"
+            android:background="@drawable/input_background" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="409dp"
+        android:id="@+id/carecenterlist"
+        android:layout_height="729dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
+</LinearLayout>

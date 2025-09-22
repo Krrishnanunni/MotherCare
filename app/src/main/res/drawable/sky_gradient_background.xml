@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Main sky blue gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="135"
+                android:startColor="#E0F2FE"
+                android:centerColor="#BAE6FD"
+                android:endColor="#7DD3FC"
+                android:type="linear" />
+        </shape>
+    </item>
+    
+    <!-- Subtle overlay for depth -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="45"
+                android:startColor="#10FFFFFF"
+                android:centerColor="#05F0F9FF"
+                android:endColor="#08E0F7FA"
+                android:type="linear" />
+        </shape>
+    </item>
+    
+    <!-- Very subtle noise texture -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#02000000" />
+        </shape>
+    </item>
+</layer-list>

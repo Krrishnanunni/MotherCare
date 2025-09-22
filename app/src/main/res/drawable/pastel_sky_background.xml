@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Pastel gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="135"
+                android:startColor="#F8FAFC"
+                android:centerColor="#E1F5FE"
+                android:endColor="#B3E5FC"
+                android:type="linear" />
+        </shape>
+    </item>
+    
+    <!-- Subtle pink tint for warmth -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="45"
+                android:startColor="#05FDF2F8"
+                android:centerColor="#03F3E8FF"
+                android:endColor="#02E1F5FE"
+                android:type="linear" />
+        </shape>
+    </item>
+    
+    <!-- Very light texture -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#01F0F9FF" />
+        </shape>
+    </item>
+</layer-list>

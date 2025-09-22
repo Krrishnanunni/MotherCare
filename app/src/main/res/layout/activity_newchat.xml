@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="wrap_content"
+android:layout_height="match_parent"
+android:layout_gravity="center"
+android:orientation="vertical"
+
+android:background="#43A047"
+tools:context=".Newchat" >
+
+
+
+
+    <TextView
+        android:id="@+id/teacher_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="-50dp"
+        android:src="@drawable/back"
+        android:id="@+id/back"/>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp"
+
+        tools:context=".Newchat">
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:divider="@android:color/transparent"
+
+
+        android:layout_gravity="center"
+        android:transcriptMode="alwaysScroll"
+        android:stackFromBottom="true"
+        android:layout_weight="0.47">
+
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+    <EditText
+            android:id="@+id/editText1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:padding="12dp"
+
+            android:textColor="#000"
+            android:inputType="textMultiLine" >
+
+            <requestFocus />
+    </EditText>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:layout_marginTop="2dp"
+            android:src="@drawable/send" />
+
+
+    </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>
+
+

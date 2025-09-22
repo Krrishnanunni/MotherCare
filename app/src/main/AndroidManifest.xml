@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mothercare"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".ViewRequestAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".AdapterViewCarecenter"
+            android:exported="false" />
+        <activity
+            android:name=".AdapterViewRating"
+            android:exported="false" />
+        <activity
+            android:name=".AdapterBabyComplaintReply"
+            android:exported="false" />
+        <activity
+            android:name=".AdapterViewServices"
+            android:exported="false" />
+        <activity
+            android:name=".AppoinmentAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".ChatforDoc"
+            android:exported="false" />
+        <activity
+            android:name=".Newchat"
+            android:exported="false" />
+        <activity
+            android:name=".User_payment"
+            android:exported="false" />
+        <activity
+            android:name=".Customchat"
+            android:exported="false" />
+        <activity
+            android:name=".MakePayment"
+            android:exported="false" />
+        <activity
+            android:name=".Updatebabies"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateBabies"
+            android:exported="false" />
+        <activity
+            android:name=".ViewAppoinment"
+            android:exported="false" />
+        <activity
+            android:name=".ViewRequest"
+            android:exported="false" />
+        <activity
+            android:name=".RateCareCenter"
+            android:exported="false" />
+        <activity
+            android:name=".ViewDiet"
+            android:exported="false" />
+        <activity
+            android:name=".ViewProposal"
+            android:exported="false" />
+        <activity
+            android:name=".SendRequest"
+            android:exported="false" />
+        <activity
+            android:name=".SendEnquiries"
+            android:exported="false" />
+        <activity
+            android:name=".ViewConsultingTIme"
+            android:exported="false" />
+        <activity
+            android:name=".ViewRating"
+            android:exported="false" />
+        <activity
+            android:name=".Chat"
+            android:exported="false" />
+        <activity
+            android:name=".View_Services"
+            android:exported="false" />
+        <activity
+            android:name=".ViewVaccination"
+            android:exported="false" />
+        <activity
+            android:name=".ViewPrecaution"
+            android:exported="false" />
+        <activity
+            android:name=".ViewBabies"
+            android:exported="false" />
+        <activity
+            android:name=".Baby_Complaint_Reply"
+            android:exported="false" />
+        <activity
+            android:name=".Send_Complaint"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".SentFeedback"
+            android:exported="false" />
+        <activity
+            android:name=".SentComplaint"
+            android:exported="false" />
+        <activity
+            android:name=".ViewCarecenter"
+            android:exported="false" />
+        <activity
+            android:name=".ViewDoctor"
+            android:exported="false" />
+        <activity
+            android:name=".AddBabies"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".demo"
+            android:exported="false" />
+        <activity
+            android:name=".Registration"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".IpSetting"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <data
+                    android:host="rzp.io"
+                    android:scheme="io.rzp" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

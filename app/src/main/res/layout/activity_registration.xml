@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="1000dp"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:background="@drawable/signin"
+    tools:context=".Registration">
+
+    <!-- First Name -->
+    <EditText
+        android:id="@+id/Firstname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Firstname"
+        android:inputType="text"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Last Name -->
+    <EditText
+        android:id="@+id/Lastname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Lastname"
+        android:inputType="text"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Phone -->
+    <EditText
+        android:id="@+id/Phone"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Email -->
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Address -->
+    <EditText
+        android:id="@+id/Address"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:inputType="text"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Date of Birth -->
+    <EditText
+        android:id="@+id/Dob"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="DOB"
+        android:inputType="date"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Username -->
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="text"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Password -->
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Register Button -->
+    <Button
+        android:id="@+id/register"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#fc8eac"
+        android:text="Register"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>

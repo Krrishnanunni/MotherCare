@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Glass background with transparency -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#35FFFFFF" />
+            <corners android:radius="20dp" />
+        </shape>
+    </item>
+    
+    <!-- Subtle gradient overlay for depth -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="45"
+                android:startColor="#25FFFFFF"
+                android:centerColor="#15F8F9FA"
+                android:endColor="#10FFFFFF"
+                android:type="linear" />
+            <corners android:radius="20dp" />
+        </shape>
+    </item>
+    
+    <!-- Glass border -->
+    <item>
+        <shape android:shape="rectangle">
+            <stroke 
+                android:width="0.5dp" 
+                android:color="#50FFFFFF" />
+            <corners android:radius="20dp" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Dark mode night sky gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="135"
+                android:startColor="#0F172A"
+                android:centerColor="#1E293B"
+                android:endColor="#334155"
+                android:type="linear" />
+        </shape>
+    </item>
+    
+    <!-- Blue tint overlay -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="90"
+                android:startColor="#081730"
+                android:centerColor="#051025"
+                android:endColor="#030712"
+                android:type="linear" />
+        </shape>
+    </item>
+    
+    <!-- Subtle stars effect -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="45"
+                android:startColor="#05374151"
+                android:centerColor="#03475569"
+                android:endColor="#02334155"
+                android:type="linear" />
+        </shape>
+    </item>
+</layer-list>
